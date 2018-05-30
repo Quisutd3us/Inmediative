@@ -1,0 +1,5 @@
+// helpers
+
+@mixin helperBorder($tamano, $color){
+    border:solid $tamano $color
+}

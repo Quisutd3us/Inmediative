@@ -1,0 +1,32 @@
+@import 'fuentes';
+@import 'colores';
+
+h1{
+    font-family: $roboto;
+    font-weight: bold;
+    font-size: 1.875rem;
+    color:$color_negro;
+}
+h2{
+    font-family: $roboto;
+    font-size: 1.875rem;
+    color:$color_negro;
+}
+h3{
+    font-family: $roboto;
+    font-size: 1.4rem;
+    color:$color_negro;
+}
+p{
+    font-family: $open-sans;
+    font-size: 1.125remrem;
+    color:$color_negro;
+}
+ul li{
+    font-family: $roboto;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+a{
+    @extend li;
+}
