@@ -1,4 +1,4 @@
-
+var db = '../../db.json'
 
 new Vue({
     el: '#app',
@@ -36,18 +36,14 @@ new Vue({
                 "At vero eos et accusamus et iusto odio"
             ],
             slide: [
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
-                "../../app/img/img.jpg",
+                "../img/img.jpg",
+                "../img/img.jpg",
+                "../img/img.jpg",
+                "../img/img.jpg",
+                "../img/img.jpg",
+                "../img/img.jpg",
+                "../img/img.jpg",
+                "../img/img.jpg",
             ]
         }]
     }
